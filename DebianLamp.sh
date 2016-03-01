@@ -18,7 +18,7 @@ export DEBIAN_FRONTEND=noninteractive
 ERRORS=""
 
 echo "				Updating..."
-#apt-get update
+apt-get update
 #apt-get upgrade -y --show-upgraded
 
 echo -e "\n"
