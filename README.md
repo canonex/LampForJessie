@@ -17,4 +17,8 @@ Some operation may take a while, be patient.
  - headers and rewrite enabled
  - php.ini date.timezone option on Europe Rome: please configure your position [Php Timezones](http://php.net/manual/en/timezones.php)
 
+
+Please have a look at the code:
+is commented and, more or less, self explaining.
+
 End

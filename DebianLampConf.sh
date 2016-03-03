@@ -60,8 +60,8 @@ sed -i "s/max_execution_time.*/max_execution_time = 30/g" $CURRENT
 sed -i "s/max_input_time .*/max_input_time = 60/g" $CURRENT
 sed -i "s/memory_limit.*/memory_limit = 128M/g" $CURRENT
 
-sed -i "s/post_max_size.*/post_max_size = 12M/g" $CURRENT
-sed -i "s/upload_max_filesize.*/upload_max_filesize = 12M/g" $CURRENT
+sed -i "s/post_max_size.*/post_max_size = 24M/g" $CURRENT
+sed -i "s/upload_max_filesize.*/upload_max_filesize = 24M/g" $CURRENT
 sed -i 's/;date.timezone.*/date.timezone = \"Europe\/Rome\"/g' $CURRENT
 
 service apache2 restart
