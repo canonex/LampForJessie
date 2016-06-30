@@ -95,7 +95,8 @@ fi
 
 
 echo "						- Apache"
-apt-get install -y php5 php5-mysql libapache2-mod-php5 php5-mcrypt php5-curl libssh2-php git
+#php5-mysql
+apt-get install -y php5 php5-mysqlnd libapache2-mod-php5 php5-mcrypt php5-curl libssh2-php git
 
 echo "						- PhpMyAdmin"
 echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
